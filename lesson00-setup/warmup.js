@@ -5,4 +5,4 @@ function introduceYourself(name, hometown) {
 }
 
 // Then console.log the result of your function to the console.
-introduceYourself("Diamond", "Bronx")
+introduceYourself("Diamond Brown", "Bronx")
