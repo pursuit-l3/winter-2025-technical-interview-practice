@@ -42,7 +42,11 @@ If you followed the instructions, you'll see something like: "Hello, my name is 
 
 ## Written Question (5 minutes)
 
-Each class will also have a "Written Question." These will typically ask you to do a bit of critical thinking about a topic. You will then slack your response to a given channel. Today's question is "What are you interested in learning over the next couple of months in L3?"
+Each class will also have a "Written Question." These will typically ask you to do a bit of critical thinking about a topic. You will then slack your response to a given channel. Today's question is 
+"What are you interested in learning over the next couple of months in L3?"
+-DSA 
+-Algorithms
+-Time and Space complexity
 
 ## Lecture Content (20 minutes)
 
