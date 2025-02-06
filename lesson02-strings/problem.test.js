@@ -1,4 +1,33 @@
-const lengthOfLongestSubstring = require('./problem');
+const {
+    getSecondChar,
+    getLettersFromChar,
+    getSecondThroughFifthLetter,
+    getPartOfAWord,
+    getFalsesOutOfArray,
+    putTheInTheMiddle,
+    getPriceAfterDiscount
+} = require('./warmup');
+
+describe('getSecondChar', () => {
+    // Simple cases
+    test('Always return the second letter of the 3 lettered word', () => {
+        expect(getSecondChar('cat')).toBe('a');
+    });
+
+    // Normal cases
+    test('Make sure the input is a string data type', () => {
+        const input = 'word';  // Define the input first
+        getSecondChar(input);  // Then call the function
+        expect(typeof input).toBe('string');  // Check if input is of type 'string'
+    });    
+
+    // Complex cases
+    test('', () => {
+        expect().toBe();
+    });
+
+});
+
 
 describe('lengthOfLongestSubstring', () => {
     // Simple cases

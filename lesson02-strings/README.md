@@ -2,7 +2,11 @@
 
 ## Warm-up Written Question (15 minutes)
 
-Today we'll be looking at a data type called "string." Why does data have different types? What are some advantages that would bring?
+Today we'll be looking at a data type called "string." Why does data have different types? 
+Data has different types because there is different information that needs to to be conveyed and/or represented as accurate as possible for the computer to understand and/or catergorize.
+
+What are some advantages that would bring?
+It will be easier to organize data and understand data.
 
 ## Lecture Content (20 minutes)
 
