@@ -5,7 +5,10 @@
  * @return {number}
  */
 function lengthOfLongestSubstring(s) {
-  // Your code here
+  if(s === ''){
+    return 0
+  }
+
 }
 
 module.exports = lengthOfLongestSubstring;

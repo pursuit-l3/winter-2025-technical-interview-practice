@@ -1,13 +1,13 @@
 // 1. given a string with three characters, return the second character
 //O(1)- time and Space complexity 
 function getSecondChar(wrd){
-    if(wrd.length >= 2){
+    if(typeof wrd === "string" && wrd.length === 3){
         return wrd[1];
     }else{
         return null;
     }
 };
-// console.log(getSecondChar("Diamond"))
+// console.log(getSecondChar("Diamond"));
 
 // 2. get the second and third char from a string. the string will always have atleast three characters
 //O(1)- time and Space complexity 
@@ -17,7 +17,11 @@ function getSecondChar(wrd){
 // 'robbed' => 'ob'
 
 function getLettersFromChar(wrd){
-    return `${wrd[1]}${wrd[2]}`;
+    if(typeof wrd !== "string" || wrd.length < 3){
+        return null;
+    }else{
+        return `${wrd[1]}${wrd[2]}`;
+    }
 };
 // console.log(getLettersFromChar("cat"));
 // console.log(getLettersFromChar("robbed"));
