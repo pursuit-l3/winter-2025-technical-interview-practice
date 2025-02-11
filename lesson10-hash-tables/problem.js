@@ -10,21 +10,19 @@
 const twoSum = (nums, target) => {
   let hashTable = new Map(); // Declare a hash table
 
-  nums.map((num, index) => {
+  nums.some((num, index) => {
     let lookUp = target - num;
-    if (nums.find((number, ind) => {
-      if (number === lookUp) {
-        hashTable.set(index, ind);
-      }
-    })) {
-    };
+
+    if(nums.includes(lookUp)){
+      hashTable.set(index, nums.indexOf(lookUp));
+    }
   });
+
 
   let firstKey = hashTable.keys().next().value;
   let firstValue = hashTable.get(firstKey);
 
-
   return [firstKey, firstValue];
 };
-console.log(twoSum([1, 2, 3, 4, 5, 6], 9));
+console.log(twoSum([1, 2, 3, 4, 5, 6], 7));
 module.exports = twoSum;
