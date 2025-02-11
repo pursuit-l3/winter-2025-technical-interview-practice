@@ -5,6 +5,7 @@
 ## Written Question (5 minutes)
 
 What's better a hash table or an array? Explain.
+It all depends on how you want to store data and how much time you want to spend on retrieving data.
 
 ## Lecture Content (20 minutes)
 

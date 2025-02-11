@@ -8,7 +8,23 @@
  * @return {number[]} - An array containing the indices of the two numbers that add up to the target.
  */
 const twoSum = (nums, target) => {
-  // Your code here
-};
+  let hashTable = new Map(); // Declare a hash table
 
+  nums.map((num, index) => {
+    let lookUp = target - num;
+    if (nums.find((number, ind) => {
+      if (number === lookUp) {
+        hashTable.set(index, ind);
+      }
+    })) {
+    };
+  });
+
+  let firstKey = hashTable.keys().next().value;
+  let firstValue = hashTable.get(firstKey);
+
+
+  return [firstKey, firstValue];
+};
+console.log(twoSum([1, 2, 3, 4, 5, 6], 9));
 module.exports = twoSum;
