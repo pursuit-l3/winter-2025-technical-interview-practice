@@ -29,7 +29,11 @@ function getLettersFromChar(wrd){
 // 3. Given a word with 5 letters, return the second through 5th letter
 //O(1)- time and space complexity 
 function getSecondThroughFifthLetter (word){
-  return word.slice(1);
+    if(typeof word === "string" && word.length === 5){
+        return word.slice(1);
+    }else{
+        return null;
+    }
 };
 // console.log(getSecondThroughFifthLetter("super"));
 
