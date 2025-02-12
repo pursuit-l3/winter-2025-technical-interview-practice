@@ -2,7 +2,14 @@
 
 ## Warm-up Written Question (15 minutes)
 
-Imagine you are asked to build a frying pan. What kind of requirements would you want to include? How would make sure that the pan meets the requirements?
+Imagine you are asked to build a frying pan. What kind of requirements would you want to include? 
+REQUIREMENTS:
+-size (diameter, circumference)
+-color
+-material
+
+How would make sure that the pan meets the requirements?
+I would run a several tests on the pan to ensure the requirements are met.
 
 ## Lecture Content (20 minutes)
 
