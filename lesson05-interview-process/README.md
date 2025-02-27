@@ -6,7 +6,13 @@
 
 ## Written Question (5 minutes)
 
-- What are some things you should do before a technical interview. Why are they important?
+- What are some things you should do before a technical interview. 
+You should go over some practice problems that focus on DSA.
+
+Why are they important?
+This is important to:
+1. Get your brain ready and refresh your memory
+
 
 ## Lecture Content (20 minutes)
 

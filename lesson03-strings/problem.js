@@ -12,7 +12,7 @@ text = "ababcababcabc"
 pattern = "abc"
 
 Output:
-[2, 7, 10, 13]
+[2, 7, 10]
 
 Input:
 text = "hello world"
@@ -25,12 +25,25 @@ Note:
 - The matching should be case-sensitive.
 - The indices should be 0-based.
 
+// TODO: Implement the string matching algorithm
+  // Return an array of indices where the pattern is found in the text
+  // If the pattern is not found, return an empty array
+
 */
 
 function stringMatching(text, pattern) {
-  // TODO: Implement the string matching algorithm
-  // Return an array of indices where the pattern is found in the text
-  // If the pattern is not found, return an empty array
+  let indices = [];
+  let regex = /abc/g;
+  let match;
+  while ((match = regex.exec(text)) !== null) {
+    indices.push(match.index)
+  }
+
+  return indices;
+
 }
+
+console.log(stringMatching("ababcababcabc", "abc"));
+console.log(stringMatching("hello world", "xyz"));
 
 module.exports = stringMatching;
