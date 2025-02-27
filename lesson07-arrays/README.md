@@ -6,6 +6,8 @@
 
 Describe how an array can be used to manage a to-do list. Explain how you would add tasks, remove tasks, and access specific tasks.
 
+An array can manage a to do list by grouping certain tasks. You could add tasks by pushing elements into an array, remove tasks by popping or slicing elements, or even accessing tasks by its index.  
+
 ## Lecture Content (20 minutes)
 
 In this lecture, we will expand on the topic of arrays and explore some additional concepts and operations that can be performed on arrays.
