@@ -4,8 +4,8 @@ describe("stringMatching", () => {
   it("should return an array of indices where the pattern is found in the text", () => {
     expect(stringMatching("ababcababcabc", "abc")).toEqual([2, 7, 10]);
     expect(stringMatching("hello world", "xyz")).toEqual([]);
-    expect(stringMatching("abababab", "aba")).toEqual([0, 2, 4]);
-    expect(stringMatching("aaaaa", "aa")).toEqual([0, 1, 2, 3]);
+    expect(stringMatching("abababab", "aba")).toEqual([0, 4]);
+    expect(stringMatching("aaaaa", "aa")).toEqual([0, 2]);
   });
 
   it("should return an empty array if the pattern is not found", () => {

@@ -32,9 +32,14 @@ Note:
 */
 
 function stringMatching(text, pattern) {
-  let indices = [];
-  let regex = /abc/g;
+  let indices = []; 
+  let regex = new RegExp(pattern, "g");
   let match;
+
+  if(!text || !pattern){
+    return indices;
+  }
+
   while ((match = regex.exec(text)) !== null) {
     indices.push(match.index)
   }
@@ -45,5 +50,8 @@ function stringMatching(text, pattern) {
 
 console.log(stringMatching("ababcababcabc", "abc"));
 console.log(stringMatching("hello world", "xyz"));
+console.log(stringMatching("abababab", "aba"));
+console.log(stringMatching("aaaaa", "aa"));
+
 
 module.exports = stringMatching;
