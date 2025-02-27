@@ -6,6 +6,8 @@
 
 Question: Imagine you have a collection of vintage records that you like to listen to, but you want to make the records you liked the most easiest to access. How would you organize your collection so that your favorite records are quickly reachable? Consider how you might want to retrieve a record based on how much you like it, rather than just randomly picking. What benefits would this type of organization provide?
 
+I would put my most played records in front of the rest of the pile. Then I would know the songs that are in the beginning of the pile are most likely my favorite or most played and it will be easier to access.
+
 ## Lecture Content (20 minutes)
 
 In this lecture, we will explore the concept of arrays in JavaScript. Arrays are a fundamental data structure that allow us to store and manipulate collections of values.
