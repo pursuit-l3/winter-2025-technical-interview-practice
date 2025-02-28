@@ -2,7 +2,13 @@
 
 ### Written Question (5 minutes)
 
-**Question:** Why do you think it's important to analyze the efficiency of an algorithm? Provide one example where inefficient code could cause real-world problems.
+**Question:** Why do you think it's important to analyze the efficiency of an algorithm?
+
+To make sure the algorithm doesnt timeout or consume alot of memory. Also to make sure the algorithm is able to retrieve information from given data and display it. 
+
+Provide one example where inefficient code could cause real-world problems.
+
+Let’s say a user wants to listen to their favorite song but the search algorithm is inefficient this will cause long wait times. That may cause the user to deem that music platform as inconvenient.
 
 (Allow students to write a brief response. This question helps set the stage for why big O notation is critical in computer science and software engineering.)
 

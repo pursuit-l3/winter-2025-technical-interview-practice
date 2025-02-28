@@ -6,6 +6,9 @@
 
 Imagine you were charged with building a mail delivery robot for you office. The office is composed of cubicles that are all the same width and depth. The cubicles are arranged in rows and rows are evenly spaced apart. How might you instruct the robot to deliver mail to a cubicle by looking at a number on the package?
 
+First I would identify all the drop off locations by cubicle number.
+For each location I would organize the cubicle number, directions and list of mail with the cubicle number grouped together and associate it with the cubicle number.
+
 ## Lecture Content (20 minutes)
 
 Introduce the concept of hash tables, explaining how they use a hash function to compute an index into an array in which an element will be stored or searched. Cover the basics:

@@ -5,8 +5,25 @@
  * @param {number} n - The positive integer.
  * @returns {number} The sum of consecutive numbers from 1 to n.
  */
+
+// Linear time O(n) === looping through each number and add it to the number before it until we reach n
+
+// function sumConsecutiveNumbers(n) {
+//   let total = 0; 
+
+//   for (let i = 1; i <= n; i++){
+//     total += i;
+//   }
+
+//   return total;
+// }
+
+// Constant time O(1) === one mathematical formula that will provide the sum regardless of the value of n
 function sumConsecutiveNumbers(n) {
-  // Your code here
+  return (n * (n + 1)) / 2;
 }
+
+
+console.log(sumConsecutiveNumbers(8));
 
 module.exports = sumConsecutiveNumbers;
