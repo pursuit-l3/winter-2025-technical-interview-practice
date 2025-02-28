@@ -10,17 +10,35 @@
 const twoSum = (nums, target) => {
   let hashMap = new Map();
 
-  for (let i = 0; i < nums.length; i++) {
-    let complement = target - nums[i]; 
+for ( let i = 0; i < nums.length; i++){
+  let remain = target - nums[i];
 
-    if (hashMap.has(complement)) {
-      return [hashMap.get(complement), i];
-    }
-
-    hashMap.set(nums[i], i);
+  if(nums.indexOf(remain) !== i && nums.includes(remain) ){
+    hashMap.set(nums[i], [i, nums.indexOf(remain)])
   }
+}
 
-  return []; 
+return hashMap.values().next().value.sort();
 };
-console.log(twoSum([1, 2, 3, 4, 5, 6], 9));
+
+
+console.log(twoSum([1, 5, 3, 7], 8));
 module.exports = twoSum;
+
+
+
+// const twoSum = (nums, target) => {
+//   for (let i = 0; i < nums.length; i++) {
+//     let complement = target - nums[i]; 
+  
+//     if (hashMap.has(complement)) {
+//       return [hashMap.get(complement), i];
+//     }
+  
+//     hashMap.set(nums[i], i);
+//   }
+  
+//   return [];
+// };
+
+ 
